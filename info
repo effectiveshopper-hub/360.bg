@@ -1,0 +1,1574 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="bg-BG">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="https://www.360.bg/info/wp-content/themes/atahualpa/style.css" type="text/css" />
+<title>360.bg Инфо </title>
+<link rel="shortcut icon" href="https://www.360.bg/info/wp-content/themes/atahualpa/images/favicon/http://www.360.bg/favicon.ico" /><link rel="alternate" type="application/rss+xml" title="360.bg Инфо RSS Feed" href="https://www.360.bg/info/feed/" />
+<link rel="alternate" type="application/atom+xml" title="360.bg Инфо Atom Feed" href="https://www.360.bg/info/feed/atom/" />
+<link rel="pingback" href="http://www.360.bg/info/xmlrpc.php" />
+<script type="text/javascript" src="https://www.360.bg/info/wp-content/themes/atahualpa/js/ruthsarian_utilities.js"></script>
+<script type="text/javascript">
+	<!--
+	if ( ( typeof( sfHover ) ).toLowerCase() != 'undefined' ) { event_attach( 'onload' , function () { 
+	sfHover( 'rmenu2' );		
+	if (document.getElementById("recent-comments") != null) { sfHover( 'recent-comments' ); }
+	if (document.getElementById("bfa-recent-comments") != null) {sfHover( 'bfa-recent-comments' ); }
+		} ); }
+	//-->
+</script>
+<script type="text/javascript" src="https://www.360.bg/info/wp-content/themes/atahualpa/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript">
+<!--
+var $bfa = jQuery.noConflict();
+$bfa(document).ready(function(){    
+	// IE6 max-width for images 
+	if ($bfa.browser.msie && /MSIE 6\.0/i.test(window.navigator.userAgent) && !/MSIE 7\.0/i.test(window.navigator.userAgent)) {
+	var centerwidth = $bfa("td#middle").width(); 
+	// without caption
+	$bfa(".post img").each(function() { 
+		var maxwidth = centerwidth - 10 + 'px';
+		var imgwidth = $bfa(this).width(); 
+		var imgheight = $bfa(this).height(); 
+		var newimgheight = (centerwidth / imgwidth * imgheight) + 'px';	
+		if (imgwidth > centerwidth) { 
+			$bfa(this).css({width: maxwidth}); 
+			$bfa(this).css({height: newimgheight}); 
+		}
+	});
+	// with caption
+	$bfa("div.wp-caption").each(function() { 
+		var captionwidth = $bfa(this).width(); 
+		var maxcaptionwidth = centerwidth + 'px';
+		var captionheight = $bfa(this).height();
+		var captionimgwidth =  $bfa("div.wp-caption img").width();
+		var captionimgheight =  $bfa("div.wp-caption img").height();
+		if (captionwidth > centerwidth) { 
+			$bfa(this).css({width: maxcaptionwidth}); 
+			var newcaptionheight = (centerwidth / captionwidth * captionheight) + 'px';
+			var newcaptionimgheight = (centerwidth / captionimgwidth * captionimgheight) + 'px';
+			$bfa(this).css({height: newcaptionheight}); 
+			$bfa("div.wp-caption img").css({height: newcaptionimgheight}); 
+			}
+	});
+	}
+		$bfa(".post table tr").mouseover(function() {$bfa(this).addClass("over");}).mouseout(function() {$bfa(this).removeClass("over");});
+			$bfa(".post table tr:even").addClass("alt");
+			$bfa("input.text, input.TextField, input.file, input.password, textarea").focus(function () {  $bfa(this).addClass("highlight"); }).blur(function () { $bfa(this).removeClass("highlight"); })
+		$bfa("input.inputblur").focus(function () {  $bfa(this).addClass("inputfocus"); }).blur(function () { $bfa(this).removeClass("inputfocus"); })
+		$bfa("input.button, input.Button").mouseover(function() {$bfa(this).addClass("buttonhover");}).mouseout(function() {$bfa(this).removeClass("buttonhover");});
+	// toggle "you can use these xhtml tags
+	$bfa("a.xhtmltags").click(function(){ $bfa("div.xhtml-tags").slideToggle(300); });
+});
+//-->
+</script>
+<style type="text/css">
+body {
+	font-family:  arial, helvetica, sans-serif;
+font-size: medium;
+color: #000000;
+background: #99ccff;
+	}
+
+a:link, a:visited, a:active {
+	color: #FD7C2F; 
+	font-weight: bold; 
+	text-decoration: none; 
+	}
+	
+a:hover {
+	color: #0984FF;
+	font-weight: bold; 
+	text-decoration: none; 
+	}
+		
+
+div#wrapper {
+	width: 1000px;
+		}
+
+
+div#container {
+	padding: 10;
+background: #ffffff		}
+
+.colone {width: 200px;}
+.colthree {width: 306px;}
+	
+table#logoarea {
+	border-spacing: 0px;
+	height: 50px;	}
+	
+.logo {
+	margin: 0 10px 0 0;	}
+
+h1.blogtitle {
+	margin: 0;
+padding:0;
+letter-spacing:-1px;
+line-height: 100%;
+
+			font-family: tahoma, arial, sans-serif;
+font-size: 200%;	}
+	
+h1.blogtitle a:link, 
+h1.blogtitle a:visited, 
+h1.blogtitle a:active {
+	color: #000000;
+	font-weight: bold;
+	}
+	
+h1.blogtitle a:hover {
+	color: #666666;
+	font-weight: bold;
+	}
+
+p.tagline { 
+	margin-top: 10;
+padding: 0;
+font-size: 80%;
+font-weight: bold;
+color: #666666;	}
+
+div.rss-box {
+	width: 280px;
+	}
+	
+.searchbox {
+	height: 35px;
+	border-top: 1px dashed #ffffff;
+border-right: 1px dashed #ffffff;
+border-bottom: 0;
+
+			border-left: 1px dashed #ffffff;
+width: 200px;
+margin: 0;
+padding: 0;	}
+
+.horbar1 {
+	height: 5px;
+background: #ffffff;
+border-top: dashed 1px #ffffff;	}
+	
+.horbar2 { 
+	height: 5px;
+background: #ffffff;
+border-bottom: dashed 1px #ffffff;	}	
+
+.header-image-container {
+	height: 150px; 
+	}
+	
+.titleoverlay {
+	margin-top: 20px;
+margin-left: 30px;
+width: 310px;
+padding: 7px;
+background: #ffffff;
+border: solid 1px #666666;
+filter: alpha(opacity=80);
+-moz-opacity:.80;
+opacity:.80;
+-moz-border-radius: 7px;
+-khtml-border-radius: 7px;
+-webkit-border-radius: 7px;
+border-radius: 7px;	}
+
+.opacityleft {
+	background-color: #FFFFFF; 
+	height: 150px;
+	width: 0px; 
+	filter: alpha(opacity=40);
+	-moz-opacity:.40;
+	opacity:.40;
+	}
+
+
+
+div.clickable {
+	height: 150px; 
+	}
+		
+td#left {
+	border-right: dashed 1px #ffffff;
+padding: 10px 10px 10px 10px;
+background: #ffffff;	}
+
+td#right {
+	border-left: dashed 1px #ffffff;
+padding: 35px 10px 10px 0px;
+background: #ffffff;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: 90%
+
+	}
+
+td#middle {
+	padding: 35px 10px 20px 10px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 80%;
+line-height: 130%;
+	}
+
+td#footer {
+	width: auto;
+	background-color: #ffffff;
+border-top: solid 1px #99ccff;
+padding: 10px;
+
+			text-align: center;
+color: #777777;
+font-size: 70%;	}
+
+td#footer a:link, td#footer a:visited, td#footer a:active {
+	text-decoration: none;
+color: #777777;
+font-weight: normal;	}
+
+td#footer a:hover {
+	text-decoration: none;
+color: #777777;
+font-weight: normal;	}
+	
+div.widget {
+	margin: 0 0 15px 0;	}
+
+div.widget-title {
+		}
+
+div.widget-title h3 {
+		}	
+	
+div.widget-content {
+		}
+
+div.widget select { 
+	 
+}	
+	
+.widget ul li {
+	margin: 2px 0 2px 5px;
+	}
+
+.widget ul li ul li {
+	margin: 2px 0 2px 5px;  
+	}
+
+.widget ul li ul li ul li {
+	margin: 2px 0 2px 5px;  
+	}
+	
+.widget ul li a:link, 
+.widget ul li a:visited, 
+.widget ul li a:active {
+	padding: 0 0 0 5px; 
+	color: #0984FF; 
+	border-left: solid 3px #0984FF; 
+	}
+
+.widget ul li ul li a:link, 
+.widget ul li ul li a:visited, 
+.widget ul li ul li a:active {
+	padding: 0 0 0 5px; 
+	color: #666666; 
+	border-left: solid 7px #CCCCCC; 
+	}
+
+.widget ul li ul li ul li a:link, 
+.widget ul li ul li ul li a:visited, 
+.widget ul li ul li ul li a:active {
+	padding: 0 0 0 5px; 
+	color: #666666; 
+	border-left: solid 7px #CCCCCC; 
+	}
+
+	
+.widget ul li a:hover {
+	color: #FD7C2F; 
+	border-left: solid 3px #FD7C2F; 
+	}
+
+.widget ul li ul li a:hover {
+	color: #000000; 
+	border-left: solid 7px #000000; 
+	}
+
+.widget ul li ul li ul li a:hover {
+	color: #000000; 
+	border-left: solid 7px #000000; 
+	}
+	
+.widget_categories ul li a:link, 
+.widget_categories ul li a:visited, 
+.widget_categories ul li a:active,
+.widget_categories ul li a:hover {
+	display: inline !important;  
+	}
+	
+div#get_recent_comments_wrap ul li ul li,
+.widget_recent_comments ul li, 
+.widget_simple_recent_comments ul li {
+	padding: 0 0 0 5px; 
+	border-left: solid 3px #0984FF; 
+	}
+
+div#get_recent_comments_wrap ul li ul li ul li, 
+.widget_recent_comments ul li ul li, 
+.widget_simple_recent_comments ul li ul li {
+	padding: 0 0 0 5px; 
+	border-left: solid 7px #CCCCCC; 
+	}
+
+.widget_recent_comments ul li ul li ul li, 
+.widget_simple_recent_comments ul li ul li ul li {
+	padding: 0 0 0 5px; 
+	border-left: solid 7px #CCCCCC; 
+	}	
+	
+div#get_recent_comments_wrap ul li ul li:hover, 
+.widget_recent_comments ul li:hover, 
+.widget_simple_recent_comments ul li:hover, 
+div#get_recent_comments_wrap ul li ul li.sfhover, 	
+.widget_recent_comments ul li.sfhover, 
+.widget_simple_recent_comments ul li.sfhover {	
+	border-left: solid 3px #FD7C2F; 
+	}
+
+div#get_recent_comments_wrap ul li ul li ul li:hover, 
+.widget_recent_comments ul li ul li:hover, 
+.widget_simple_recent_comments ul li ul li:hover, 	
+div#get_recent_comments_wrap ul li ul li ul li.sfhover, 
+.widget_recent_comments ul li ul li.sfhover, 
+.widget_simple_recent_comments ul li ul li.sfhover {	
+	border-left: solid 7px #000000; 
+	}
+
+.widget_recent_comments ul li ul li ul li:hover, 
+.widget_simple_recent_comments ul li ul li ul li:hover, 	
+.widget_recent_comments ul li ul li ul li.sfhover, 
+.widget_simple_recent_comments ul li ul li ul li.sfhover {	
+	border-left: solid 7px #000000; 
+	}
+	
+div.post {
+	margin: 0 0 30px 0;
+	}
+
+.sticky {
+	background: #eee url(http://www.360.bg/info/wp-content/themes/atahualpa/images/sticky.gif) 99% 5% no-repeat;
+border: dashed 1px #ccc;
+padding: 10px;	}
+
+div.post-kicker {
+	margin: 0 0 5px 0;
+	}
+
+div.post-kicker a:link, 
+div.post-kicker a:visited, 
+div.post-kicker a:active {
+	color: #000000;
+text-decoration: none;
+text-transform: uppercase;	}
+
+div.post-kicker a:hover {
+	color: #cc0000;	}
+
+div.post-headline {
+		}
+
+div.post-headline h2 {
+		}
+
+div.post-headline h2 a:link, 
+div.post-headline h2 a:visited, 
+div.post-headline h2 a:active {
+		}
+
+div.post-headline h2 a:hover {
+		}
+	
+div.post-byline {
+	margin: 5px 0 10px 0;	}
+
+div.post-byline a:link, 
+div.post-byline a:visited, 
+div.post-byline a:active {
+		}
+
+div.post-byline a:hover {
+		}
+
+div.post-bodycopy {
+		}
+	
+div.post-footer {
+	margin: 0;
+padding: 5px;
+background: #eeeeee;
+color: #666;
+line-height: 18px;	}
+
+div.post-footer a:link, 
+div.post-footer a:visited, 
+div.post-footer a:active {
+	color: #333;
+font-weight: normal;
+text-decoration: none;	}	
+
+div.post-footer a:hover {
+	color: #333;
+font-weight: normal;
+text-decoration: underline;	}
+
+.navigation-top {
+	margin: 0 0 10px 0;
+padding: 10px 0 10px 0;
+border-bottom: dashed 1px #ccc;	}
+
+.navigation-middle {
+	margin: 10px 0 20px 0;
+padding: 10px 0 10px 0;
+border-top: dashed 1px #ccc;
+border-bottom: dashed 1px #ccc;	}
+	
+.navigation-bottom {
+	margin: 20px 0 0 0;
+padding: 10px 0 10px 0;
+border-top: dashed 1px #ccc;	}
+
+.navigation-comments-above {
+	margin: 0 0 10px 0;
+padding: 5px 0 5px 0;	}
+	
+.navigation-comments-below {
+	margin: 0 0 10px 0;
+padding: 5px 0 5px 0;	}
+	
+input.text, 
+input.password, 
+input.file,
+input.TextField, 
+textarea {
+	color: #000000;
+border-top: solid 1px #333333;
+border-left: solid 1px #333333;
+
+			border-right: solid 1px #999999;
+border-bottom: solid 1px #cccccc;
+	background: url(https://www.360.bg/info/wp-content/themes/atahualpa/images/inputbackgr.gif) top left no-repeat;	}
+	
+input.highlight, textarea.highlight {
+	background: #eaf6fc;
+border-color: #37699f;	}
+
+.button, .Button {
+	background-color: #777777;
+color: #ffffff;
+border: solid 2px #555555;
+font-weight: bold;	}
+	
+.buttonhover {
+	background-color: #6b9c6b;
+color: #ffffff;
+border: solid 2px #496d49;	}
+
+form#commentform input#submit	{
+	padding: 4px 10px 4px 10px;
+font-size: 1.2em;
+line-height: 1.5em;
+height: 36px;	}
+	
+blockquote {
+	color: #555555;
+padding: 1em 1em;
+background: #f4f4f4;
+border: solid 1px #e1e1e1;	
+	}
+	
+blockquote blockquote {
+	color: #444444;
+padding: 1em 1em;
+background: #e1e1e1;
+border: solid 1px #d3d3d3;	}
+
+.post table {
+	border-collapse: collapse;
+margin: 10px 0;	}
+	
+.post table caption {
+	background: #eeeeee;
+border: #999999;
+padding: 4px 8px;
+color: #666666;	}
+	
+.post table th {
+	background: #888888;
+color: #ffffff;
+font-weight: bold;
+font-size: 90%;
+padding: 4px 8px;
+
+			border: solid 1px #ffffff;
+text-align: left;	}
+	
+.post table td {
+	padding: 4px 8px;
+background-color: #ffffff;
+border-bottom: 1px solid #dddddd;
+text-align: left;	}
+
+.post table tfoot td {
+		}
+	
+.post table tr.alt td {
+	background: #f4f4f4;	}
+
+.post table tr.over td {
+	background: #e2e2e2;	}
+
+ol.commentlist {
+	border-top: dotted 1px #cccccc;
+	}
+	
+ol.commentlist li {
+	background-color: #FFFFFF;
+	border-bottom: dotted 1px #cccccc;
+	}
+
+ol.commentlist li.alt {
+	background-color: #F6F6F6;
+	border-bottom: dotted 1px #cccccc;
+	}
+
+ol.commentlist li.authorcomment {
+	background-color: #FFECEC;
+	}
+
+ol.commentlist span.authorname {
+	font-size: 100%;
+	}
+
+ul.commentlist {
+	border-top: dotted 1px #cccccc;
+	}
+
+ul.commentlist li.thread-even {
+	background-color: #FFFFFF;
+	border-bottom: dotted 1px #cccccc;
+	}
+
+ul.commentlist li.thread-odd {
+	background-color: #F6F6F6;
+	border-bottom: dotted 1px #cccccc;
+	}
+
+	
+/* reset children */
+
+ul.commentlist li ul.children, 
+ul.commentlist li ul.children li, 
+ul.commentlist li ul.children li.bypostauthor  {
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	display: block;
+	height: 1%;  /* for IE */
+	}
+
+ul.commentlist span.authorname {
+	font-size: 100%;
+	}
+
+a.page-numbers:link, 
+a.page-numbers:visited, 
+a.page-numbers:active {
+	color: #FD7C2F; 
+	border-color: #FD7C2F;
+	}
+
+a.page-numbers:hover {
+	color: #0984FF; 
+	border-color: #0984FF;
+	}
+
+.post img { padding: 5px;
+border: solid 1px #dddddd;
+background-color: #f3f3f3;
+-moz-border-radius: 3px;
+
+			-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px; }
+
+.wp-caption { border: 1px solid #dddddd;
+text-align: center;
+background-color: #f3f3f3;
+padding-top: 4px;
+
+			margin: 10px 0 0 0;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px; }
+
+.wp-caption p.wp-caption-text {
+	font-size: 0.8em;
+line-height: 13px;
+padding: 2px 4px 5px;
+margin: 0;
+color: #666666;	}
+
+img.avatar { 
+	margin: 0 8px 1px 0;
+padding: 3px;
+border: solid 1px #ddd;
+background-color: #f3f3f3;
+
+			-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px; 
+	}
+	
+div#respond {
+	margin: 25px 0;
+padding: 25px;
+background: #eee;
+-moz-border-radius: 8px;
+-khtml-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+font-size: 80%;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+
+ 
+	}
+	
+div#menu1 ul.rMenu-ver, div#menu1 ul.rMenu-ver ul
+	{
+	width: 11em;	
+	}
+
+div#menu2 ul.rMenu-ver, div#menu2 ul.rMenu-ver ul
+	{
+	width: 11em;	
+	}
+	
+ul.rMenu
+	{
+	background: #00BBF3;
+	border: solid 1px #ffffff;
+	}
+
+ul#rmenu
+	{
+	background: #777777;
+	border: solid 1px #ffffff;
+	}
+
+ul.rMenu li a
+	{
+	border: solid 1px #ffffff;	
+	}
+
+ul#rmenu li a
+	{
+	border: solid 1px #ffffff;	
+	}
+
+div#menu1 ul.rMenu-ver
+	{
+	border-top: solid 1px #ffffff;	
+	}
+
+div#menu2 ul.rMenu-ver
+	{
+	border-top: solid 1px #ffffff;	
+	}
+	
+ul.rMenu li a:link, ul.rMenu li a:hover, ul.rMenu li a:visited, ul.rMenu li a:active
+	{
+	color: #FFFFFF;
+	text-transform: none;
+	font:  bold 80% Arial, Verdana, sans-serif;  
+	}
+
+ul#rmenu li a:link, ul#rmenu li a:hover, ul#rmenu li a:visited, ul#rmenu li a:active
+	{
+	color: #FD7C2F;
+	text-transform: uppercase;
+	font: 12px  Arial, Verdana, sans-serif; 
+	}
+	
+ul.rMenu li
+	{
+	background-color: #00BBF3;	
+	}
+
+ul#rmenu li
+	{
+	background-color: #777777;	
+	}
+	
+ul.rMenu li:hover,
+ul.rMenu li.sfhover
+	{
+	background-color: #DDDDDD;	
+	}
+
+ul#rmenu li:hover,
+ul#rmenu li.sfhover
+	{
+	background-color: #000000;	
+	}
+
+ul.rMenu li.current_page_item a:link, 
+ul.rMenu li.current_page_item a:active, 
+ul.rMenu li.current_page_item a:hover, 
+ul.rMenu li.current_page_item a:visited, 
+ul.rMenu li a:hover
+	{
+	background-color: #00BBF3;
+	color: #FFCC66;
+	}
+
+ul#rmenu li.current-cat a:link, 
+ul#rmenu li.current-cat a:active, 
+ul#rmenu li.current-cat a:hover, 
+ul#rmenu li.current-cat a:visited, 
+ul#rmenu li a:hover
+	{
+	background-color: #CC0000;
+	color: #0984FF;
+	}
+
+div#menu1 ul.rMenu li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a 
+	{
+	background-image: url(https://www.360.bg/info/wp-content/themes/atahualpa/images/expand-right.gif);
+	}
+
+div#menu2 ul.rMenu li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a 
+	{
+	background-image: url(https://www.360.bg/info/wp-content/themes/atahualpa/images/expand-right-white.gif);
+	}
+	
+div#menu1 ul.rMenu-hor li.rMenu-expand a
+	{
+	background-image: url(https://www.360.bg/info/wp-content/themes/atahualpa/images/expand-down.gif);
+	}
+	
+div#menu2 ul.rMenu-hor li.rMenu-expand a
+	{
+	background-image: url(https://www.360.bg/info/wp-content/themes/atahualpa/images/expand-down-white.gif);
+	}
+	
+</style>
+<link rel='stylesheet' id='sociablecss-css'  href='http://www.360.bg/info/wp-content/plugins/sociable/css/sociable.css?ver=3.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.360.bg/info/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://www.360.bg/info/wp-content/plugins/sociable/js/sociable.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.360.bg/info/wp-content/plugins/sociable/js/addtofavorites.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.360.bg/info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.360.bg/info/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+<script type='text/javascript'>var base_url_sociable = 'http://www.360.bg/info/wp-content/plugins/sociable/'</script><script type='text/javascript' src='http://apis.google.com/js/plusone.js'></script></head>
+<body>
+<div id="wrapper">
+<div id="container">
+<table id="layout" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col class="coltwo" />
+<col class="colthree" />
+</colgroup> 
+	<tr>
+
+		<!-- Header -->
+		<td id="header" colspan="2">
+		
+		<div class="header-image-container" style="background: url(https://www.360.bg/info/wp-content/themes/atahualpa/images/header/1rocks-promo.jpg) top center no-repeat;"><div class="clickable">
+				<a class="divclick" title="360.bg Инфо" href ="http://www.360.bg/info/">&nbsp;</a></div><div class="opacityleft">&nbsp;</div><div class="titleoverlay"><h1 class="blogtitle"><a href="http://www.360.bg/info/">360.bg Инфо</a></h1><p class="tagline">Панорами, виртуални разходки и общи статии</p></div></div><div id="menu1"><ul id="rmenu2" class="clearfix rMenu-hor rMenu">
+<li class="page_item current_page_item"><a href="http://www.360.bg/info/" title="360.bg Инфо">ИНФО</a></li>
+<li><a href="http://uslugi.360.bg/">виртуални разходки-поръчки</a></li>
+<li><a href="http://uslugi.360.bg/contact-us">контакти</a></li>
+</ul></div>
+
+		</td>
+		<!-- / Header -->
+
+	</tr>
+
+	<!-- Main Body -->	
+	<tr>
+
+		
+
+		<!-- Main Column -->
+		<td id="middle">
+			
+			
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2013/06/16/protest-sreshhu-delyan-peevski-pred-ministerski-svet/" rel="bookmark" title="Permanent Link to Протест срещу Делян Пеевски пред Министерски съвет">Протест срещу Делян Пеевски пред Министерски съвет			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p><a title="Протест срещу Делян Пеевски" href="http://www.360cities.net/bg/image/peevski" target="_blank"><br />
+<img class="aligncenter size-full wp-image-647" title="Протест срещу Делян Пеевски" src="http://www.360.bg/info/wp-content/uploads/2013/06/peevski.jpg" alt="Протест срещу Делян Пеевски" width="650" height="190" /></a></p>
+<p><a href="http://www.360cities.net/bg/image/peevski" target="_blank">Натиснете върху снимката или тук, за да видите виртуалната 360 градусова разходка протеста срещу Делян Пеевски. </a></p>
+<p>Ако харесвате разходките и не искате да изпуснете следващите, абонирайте се по e-mail от горе в дясно или <a href="http://feedburner.google.com/fb/a/mailverify?uri=360bg&amp;loc=bg_BG" target="_blank">тук</a>.</p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">16 юни, 2013г. | Тагове: <a href="https://www.360.bg/info/tag/delyan-peevski/" rel="tag">делян пеевски</a>, <a href="https://www.360.bg/info/tag/ministerski-svet/" rel="tag">министерски съвет</a>, <a href="https://www.360.bg/info/tag/protest/" rel="tag">протест</a> |  Категория: <a href="https://www.360.bg/info/category/obshti/">Общи</a>, <a href="https://www.360.bg/info/category/sybitiya/">Събития</a> | 
+			<a href="https://www.360.bg/info/2013/06/16/protest-sreshhu-delyan-peevski-pred-ministerski-svet/#comments">Коментирай</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2011/10/07/screensaver-s-iaponski-vishn/" rel="bookmark" title="Permanent Link to Скрийнсейвър с цъфнали японски вишни">Скрийнсейвър с цъфнали японски вишни			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p><i>Харесай сайта във фейсбук:</i><br /> <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2F360.bg&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe><br />
+<i>Харесай скриинсейвъра:</i> <br /><iframe src="//www.facebook.com/plugins/like.php?app_id=163124370423708&amp;href=http%3A%2F%2Fwww.360.bg%2Finfo%2F2011%2F10%2F07%2Fscreensaver-s-iaponski-vishn%2F&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe></p>
+<p>Преди време пуснах анкета на фейсбук страницата на сайта. Въпроса беше искате ли да имате японските вишни от <a href="http://www.360.bg/vt/purva-prolet2/?from=360.bg" target="_blank">пролетната панорама</a> като скриинсейвър.</p>
+<p>И понеже резултата беше положителен, линка за сваляне е обявен на фейсбук страницата: <a href="https://www.facebook.com/360.bg">https://www.facebook.com/360.bg</a></p>
+<p><div id="attachment_686" class="wp-caption aligncenter" style="width: 298px"><img src="http://www.360.bg/info/wp-content/uploads/2011/10/right-click.jpg" alt="Инсталира се с десен бутон на мишката -&gt; install" title="install" width="288" height="114" class="size-full wp-image-686" /><p class="wp-caption-text">Инсталира се с десен бутон на мишката -> install</p></div><br />
+<a href="http://feedburner.google.com/fb/a/mailverify?uri=360bg&amp;loc=bg_BG" target="_blank">Абонирайте се</a>, ако не искате да изпуснете следващите панорами.</p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">7 октомври, 2011г. |  Категория: <a href="https://www.360.bg/info/category/obshti/">Общи</a>, <a href="https://www.360.bg/info/category/priroda/">Природа</a> | 
+			<a href="https://www.360.bg/info/2011/10/07/screensaver-s-iaponski-vishn/#comments">Един коментар</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2011/07/11/sofia-ot-helikopter/" rel="bookmark" title="Permanent Link to София от хеликоптер &#8211; Виртуална разходка">София от хеликоптер &#8211; Виртуална разходка			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p><a title="София" href="http://www.360.bg/vt/sofia-ot-helikopter/" target="_blank"><br />
+<img src="http://www.360.bg/info/wp-content/uploads/2011/07/sofia-ot-helikopter.jpg" alt="София от хеликоптер" title="София от хеликоптер" width="650" height="190" class="aligncenter size-full wp-image-647" /></a></p>
+<p>Харесай сайта във фейсбук:<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2F360.bg&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe></p>
+<p><a href="http://www.360.bg/vt/sofia-ot-helikopter/" target="_blank"> Натиснете върху снимката или тук, за да видите виртуалната 360 градусова разходка на София от въздуха. </a><br />
+Ако харесвате разходките и не искате да изпуснете следващите, абонирайте се по e-mail от горе в дясно или <a href="http://feedburner.google.com/fb/a/mailverify?uri=360bg&#038;loc=bg_BG" target="_blank">тук</a>.</p>
+<p>От известно време ви обещавам панорама от хеликоптер. Ето я.<br />
+Миналата година, горе-долу по това време имах възможността да се кача на хеликоптер, за да <a href="https://www.360.bg/info/2011/07/11/sofia-ot-helikopter/#more-646" class="more-link">Продължава &raquo;</a></p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">11 юли, 2011г. | Тагове: <a href="https://www.360.bg/info/tag/sofiya-ot-helikopter/" rel="tag">софия от хеликоптер</a> |  Категория: <a href="https://www.360.bg/info/category/zabelezhitelnosti/">Забележителности</a>, <a href="https://www.360.bg/info/category/obshti/">Общи</a> | 
+			<a href="https://www.360.bg/info/2011/07/11/sofia-ot-helikopter/#comments">7 коментари</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2011/03/21/kartichka-za-purva-prolet-virtualna-razhodka/" rel="bookmark" title="Permanent Link to Картичка за Първа пролет :: Виртуална разходка">Картичка за Първа пролет :: Виртуална разходка			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p><a title="Картичка за първа пролет" href="http://www.360.bg/vt/purva-prolet2/?from=360.bg" target="_blank"><img src="http://www.360.bg/info/wp-content/uploads/2011/03/purva-prolet.jpg" alt="картичка за първа пролет" title="първа пролет" width="650" height="190" class="size-full wp-image-625" /></a><br />
+Харесай сайта във фейсбук:<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2F360.bg&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe><br />
+Харесай картичката във фейсбук:<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.360.bg%2Finfo%2F2011%2F03%2F21%2Fkartichka-za-purva-prolet-virtualna-razhodka%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;font&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe><br />
+<a href="http://www.360.bg/vt/purva-prolet2/?from=360.bg" target="_blank"> Натиснете върху снимката или тук, за да видите виртуалната картичка за Първа пролет. </a></p>
+<p>Една нова картичка за Първа пролет. Поради многото приключения при заснемането на предишната, тази година бях подготвен от много отдавна. Ако не знаете за какво говоря  <a href="https://www.360.bg/info/2011/03/21/kartichka-za-purva-prolet-virtualna-razhodka/#more-623" class="more-link">Продължава &raquo;</a></p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">21 март, 2011г. | Тагове: <a href="https://www.360.bg/info/tag/pyrva-prolet/" rel="tag">първа пролет</a> |  Категория: <a href="https://www.360.bg/info/category/kartichki/">Картички</a>, <a href="https://www.360.bg/info/category/obshti/">Общи</a> | 
+			<a href="https://www.360.bg/info/2011/03/21/kartichka-za-purva-prolet-virtualna-razhodka/#comments">25 коментари</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2011/01/01/podvodnica/" rel="bookmark" title="Permanent Link to Подводница &#8211; Виртуална разходка">Подводница &#8211; Виртуална разходка			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p><a title="подводница" href="http://www.360.bg/vt/podvodnica/" target="_blank"><br />
+<img src="http://www.360.bg/info/wp-content/uploads/2011/01/podvodnica.jpg" alt="подводница" title="подводница" width="650" height="190" class="aligncenter size-full wp-image-589" /></a></p>
+<p>Харесай сайта във фейсбук:<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2F360.bg&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe><br />
+Харесай виртуалната подводница във фейсбук:<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.360.bg%2Finfo%2F2011%2F01%2F01%2Fpodvodnica%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe><br />
+<a href="http://www.360.bg/vt/podvodnica/" target="_blank"> Натиснете върху снимката или тук, за да видите виртуалната 360 градусова разходка на подводницата. </a></p>
+<p>Това е 360 градусова панорама на туристическа подводница в Египет. Заснех я миналата година, когато бях на екскурзия там (по същото време е правена и разходката на <a href="http://www.360.bg/info/2009/12/17/egipetskite-piramidi/" > египетските пирамиди</a>). Подводницата се използва, за да покаже на туристите морското дъно и обитателите му в естествената им среда.<br />
+За да ви приближа малко повече до усещането, съм прибавил няколко снимки на гледки,  <a href="https://www.360.bg/info/2011/01/01/podvodnica/#more-586" class="more-link">Продължава &raquo;</a></p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">1 януари, 2011г. | Тагове: <a href="https://www.360.bg/info/tag/podvodnitsa/" rel="tag">подводница</a>, <a href="https://www.360.bg/info/tag/ribi/" rel="tag">риби</a> |  Категория: <a href="https://www.360.bg/info/category/egipet/">Египет</a>, <a href="https://www.360.bg/info/category/obshti/">Общи</a> | 
+			<a href="https://www.360.bg/info/2011/01/01/podvodnica/#comments">5 коментари</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2010/12/23/kartichka-za-koleda-i-nova-godina/" rel="bookmark" title="Permanent Link to Картичка за Коледа и Нова година : 360 градусова интерактивна панорама">Картичка за Коледа и Нова година : 360 градусова интерактивна панорама			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p><a title="Картичка за коледа и нова година" href="http://www.360.bg/vt/koleda2/?from=360.bg" target="_blank"><img src="http://www.360.bg/info/wp-content/uploads/2010/12/koleda.jpg" alt="картичка за коледа и нова година" title="Коледна и новогодишна картичка" width="650" height="190" class="aligncenter size-full wp-image-550" /></a><br />
+Харесай сайта във фейсбук:<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2F360.bg&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe><br />
+Харесай картичката във фейсбук:<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.360.bg%2Finfo%2F2010%2F12%2F23%2Fkartichka-za-koleda-i-nova-godina%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe><br />
+<a href="http://www.360.bg/vt/koleda2/?from=360.bg" target="_blank"> Натиснете върху снимката или тук, за да видите виртуалната картичка за Коледа и Нова година. </a></p>
+<p>Една нова картичка за Коледа и Нова година. Мислех да не правя тази година, но имаше много желаещи.<br />
+Затова се качихме на Витоша с Деян от <a href="http://rubixstudio.com" target="_blank" title="уеб дизайн">Rubix studio</a>  и заснехме тази природна панорама. Времето беше мъгливо и избрахме място сред дърветата, за да се усети ефекта. Надявам се да ви хареса. Ако предпочитате можете да използвате другата картичка от : <a href="http://www.360.bg/info/2009/12/22/koledna-i-novogodishna-kartichka/">тук</a></p>
+<p><a name="generator"></a><br />
+Ако ви харесват картичките се абонирайте от горе в дясно (или <a href="http://feedburner.google.com/fb/a/mailverify?uri=360bg&#038;loc=bg_BG" target="_blank">тук</a>). Ако вече сте се абонирали &#8211; благодаря ви!</p>
+<p>Искате да направите своя картичка?  Само попълнете данните тук и натиснете &#8222;Създай картичката&#8220;:<br />
+ <a href="https://www.360.bg/info/2010/12/23/kartichka-za-koleda-i-nova-godina/#more-548" class="more-link">Продължава &raquo;</a></p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">23 декември, 2010г. | Тагове: <a href="https://www.360.bg/info/tag/kartichka/" rel="tag">картичка</a>, <a href="https://www.360.bg/info/tag/koleda/" rel="tag">коледа</a>, <a href="https://www.360.bg/info/tag/nova-godina/" rel="tag">нова година</a> |  Категория: <a href="https://www.360.bg/info/category/kartichki/">Картички</a>, <a href="https://www.360.bg/info/category/obshti/">Общи</a> | 
+			<a href="https://www.360.bg/info/2010/12/23/kartichka-za-koleda-i-nova-godina/#comments">9 коментари</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2010/12/19/3d-ilyuziya-rubik-kub/" rel="bookmark" title="Permanent Link to 3Д Илюзия &#8211; Рубик куб">3Д Илюзия &#8211; Рубик куб			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p><object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/oP_DdtDudjg?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/oP_DdtDudjg?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object><br />
+Харесай сайта във фейсбук:<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2F360.bg&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe><br />
+Харесай статията във фейсбук:<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.360.bg%2Finfo%2F2010%2F12%2F19%2F3d-ilyuziya-rubik-kub%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe></p>
+<p>Вчера си поиграх малко и сътворих тази 3д илюзия на куба на Рубик. Вижте клипчето и ми оставете коментар дали ви харесва. Искате ли да правя и други такива?</p>
+<p>Това не е 360 градусова виртуална разходка. Ще попитате &#8211; тогава защо показвам клипчето тук? Много хора  <a href="https://www.360.bg/info/2010/12/19/3d-ilyuziya-rubik-kub/#more-531" class="more-link">Продължава &raquo;</a></p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">19 декември, 2010г. | Тагове: <a href="https://www.360.bg/info/tag/3d/" rel="tag">3д</a>, <a href="https://www.360.bg/info/tag/ilyuziya/" rel="tag">илюзия</a>, <a href="https://www.360.bg/info/tag/kub/" rel="tag">куб</a>, <a href="https://www.360.bg/info/tag/rubik/" rel="tag">рубик</a> |  Категория: <a href="https://www.360.bg/info/category/ilyuzii/">Илюзии</a>, <a href="https://www.360.bg/info/category/obshti/">Общи</a> | 
+			<a href="https://www.360.bg/info/2010/12/19/3d-ilyuziya-rubik-kub/#comments">9 коментари</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2010/05/05/kartichka-za-gergiovden/" rel="bookmark" title="Permanent Link to Картичка за Гергьовден :: 360 градусова панорама">Картичка за Гергьовден :: 360 градусова панорама			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p><a title="Картичка за Гергьовден" href="http://www.360.bg/vt/gergiovden/?from=360.bg" target="_blank"><img src="http://www.360.bg/info/wp-content/uploads/2010/05/gergiovden.jpg" alt="Гергьовден" title="Гергьовден" width="650" height="190" class="aligncenter size-full wp-image-488" /></a><br />
+<br />
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.360.bg%2Finfo%2F2010%2F05%2F05%2Fkartichka-za-gergiovden%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe><br />
+<a href="http://www.360.bg/vt/gergiovden/?from=360.bg" target="_blank"> Натиснете върху снимката или тук, за да видите виртуалната картичка за Гергьовден. </a> </p>
+<p>Ето картичката за Гергьовден и деня на армията. Приключението около нея е свързано с малко прах за пране&#8230;<br />
+Снимката е от преди 2 седмици, когато бяхме да снимаме Роженския манастир и Мелник (ще ги видите, когато им дойде реда). Докато пътувахме вече знаех, че ще ми трябва подходяща снимка за Гергьовден.<br />
+Проблемът е, че чеверметата например, се случват на самия празник и няма как да ги снимам предварително. За това бях решил да си отварям очите на четири за стада с агнета (или поостарели такива) &#8211; за да е по темата. Това стадо беше в преход когато го видяхме. Спряхме колата  <a href="https://www.360.bg/info/2010/05/05/kartichka-za-gergiovden/#more-487" class="more-link">Продължава &raquo;</a></p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">5 май, 2010г. | Тагове: <a href="https://www.360.bg/info/tag/gergovden/" rel="tag">гергьовден</a>, <a href="https://www.360.bg/info/tag/kartichka/" rel="tag">картичка</a> |  Категория: <a href="https://www.360.bg/info/category/kartichki/">Картички</a>, <a href="https://www.360.bg/info/category/obshti/">Общи</a>, <a href="https://www.360.bg/info/category/priroda/">Природа</a> | 
+			<a href="https://www.360.bg/info/2010/05/05/kartichka-za-gergiovden/#comments">15 коментари</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2010/04/03/easter-card/" rel="bookmark" title="Permanent Link to Easter e-card :: 360 degree panorama">Easter e-card :: 360 degree panorama			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p> <a href="https://www.360.bg/info/2010/04/03/easter-card/#more-473" class="more-link">Продължава &raquo;</a></p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">3 април, 2010г. |  Категория: <a href="https://www.360.bg/info/category/obshti/">Общи</a> | 
+			<a href="https://www.360.bg/info/2010/04/03/easter-card/#comments">7 коментари</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+
+							
+
+					
+		<div class="post">
+								
+					
+		
+
+						
+		<!-- Post Headline -->					
+		<div class="post-headline">	
+		<h2>			<a href="https://www.360.bg/info/2010/04/03/kartichka-za-velikden/" rel="bookmark" title="Permanent Link to Картичка за Великден :: 360 градусова виртуална разходка">Картичка за Великден :: 360 градусова виртуална разходка			</a>		</h2>
+		</div>
+
+						
+						
+		
+
+						
+		<!-- Post Body Copy -->				
+		<div class="post-bodycopy clearfix">
+		<p><a title="Картичка за Великден" href="http://www.360.bg/vt/velikden/?from=360.bg&amp;to=&amp;message=" target ="_blank"><img src="http://www.360.bg/info/wp-content/uploads/2010/04/velikden.jpg" alt="картичка за великден" title="картичка за великден" width="650" height="190" class="aligncenter size-full wp-image-467" /></a></p>
+<p>
+<a href="http://www.360.bg/vt/velikden/?from=360.bg&amp;to=&amp;message=" target="_blank"> Натиснете върху снимката или тук, за да видите виртуалната картичка за Великден. </a> </p>
+<p>Ето и картичката за Великден. Живия модел се казва Бъги и получи заплащането си за фотосесията в магданоз и моркови.</p>
+<p>Ако картичките и панорамите ви харесват  и още не сте абонати, можете да се абонирате за новите от горе в дясно.</p>
+<p>
+<a name="generator"></a><br />
+Искате да направите своя картичка?  Само попълнете данните тук и натиснете &#8222;Създай картичката&#8220;:<br />
+ <a href="https://www.360.bg/info/2010/04/03/kartichka-za-velikden/#more-464" class="more-link">Продължава &raquo;</a></p>
+		</div>	
+
+
+						
+		
+						
+						
+											
+						
+						
+		<div class="post-footer">3 април, 2010г. |  Категория: <a href="https://www.360.bg/info/category/obshti/">Общи</a> | 
+			<a href="https://www.360.bg/info/2010/04/03/kartichka-za-velikden/#comments">18 коментари</a></div>
+						
+						
+		</div><!-- / Post -->
+								
+
+								
+		
+					
+					
+		
+					
+					
+						
+
+	
+	 
+				
+
+	<div class="navigation-bottom">
+			<div class="older"> &nbsp;</div><div class="newer">&nbsp; <a href="https://www.360.bg/info/page/2/" >Предишни &raquo;</a></div>
+			<div style="clear:both"></div>
+			</div>			
+				
+
+			
+		</td>
+		<!-- / Main Column -->	
+
+				<!-- Right Sidebar -->
+		<td id="right">
+
+			<div id="search" class="widget widget_search"><form method="get" class="searchform" action="https://www.360.bg/info/">
+<table class="searchform" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="searchfield">
+<input type="text" class="text inputblur" value="" name="s" />
+</td>
+<td class="searchbutton">
+<input name="submit" value="Search" type="image" src="https://www.360.bg/info/wp-content/themes/atahualpa/images/magnifier2-gray.gif" style="display: block; border:none; padding: 0 0 0 5px; margin: 0;" />
+</td>
+</tr></table>
+</form></div><div id="bfa_subscribe" class="widget widget_bfa_subscribe"><div class="widget-title"><h3>Абонирай се за нови панорами</h3></div><div class="widget-content"><form class="feedburner-email-form" 
+action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"
+onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=360bg', 
+'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+<table class="subscribe" cellpadding="0" cellspacing="0" border="0"><tr>
+<td class="email-text" colspan="2"><p>
+<a href="http://feedburner.google.com/fb/a/mailverify?uri=360bg&amp;loc=bg_BG">
+<img src="https://www.360.bg/info/wp-content/themes/atahualpa/images/feedburner-email.gif" style="float:left; margin: 0 7px 3px 0" alt="" /></a>виртуални разходки и статии по и-мейл</p>
+</td></tr><tr><td class="email-field"><input type="text" name="email" class="text inputblur" value="твоят@и-мейл.адрес" 
+onfocus="this.value='';" />
+<input type="hidden" value="360bg" name="uri"/>
+<input type="hidden" name="loc" value="bg_BG"/>
+</td><td class="email-button">
+<input type="submit" class="button"  value="Абонирай ме!" />
+</td></tr>
+<tr>
+<td  class="post-text" colspan="2"><p>
+<a href="https://www.360.bg/info/feed/">
+<img src="https://www.360.bg/info/wp-content/themes/atahualpa/images/post-feed.gif" style="float:left; margin: 0 7px 3px 0" alt="" /></a>или чрез RSS хранилка</p>
+</td>
+</tr>
+<tr>
+<td class="comment-text" colspan="2"><p>
+<a href="https://www.360.bg/info/comments/feed/">
+<img src="https://www.360.bg/info/wp-content/themes/atahualpa/images/comment-feed.gif" style="float:left; margin: 0 7px 3px 0" alt="" /></a>или пък вземи RSS за коментарите</p>
+</td>
+</tr>
+</table>
+</form>
+</div></div>		<div id="text-3" class="widget widget_text">						<div class="textwidget"><a style="color: #FD7C2F; font-size: 93%;" href="http://liriona.com">&nbsp;Избрани бижута от Liriona.com</a>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+ codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"
+ width="220" height="136" id="Liriona.com News" align="middle">
+<param name="movie" value="liriona-news.swf"/>
+<param name="quality" value="high" />
+<param name="scale" value="noscale" />
+<param name="salign" value="lt" />
+<param name="bgcolor" value="#ffffff" />
+<embed src="liriona-news.swf" quality="high" bgcolor="#ffffff" width="220" height="136"
+ name="Liriona.com news" scale="noscale" salign="lt" align="middle" type="application/x-shockwave-flash"
+ pluginspage="http://www.macromedia.com/go/getflashplayer" /></object>
+</div>
+		</div><div id="categories-3" class="widget widget_categories"><div class="widget-title"><h3>Теми</h3></div><div class="widget-content">		<ul>
+	<li class="cat-item cat-item-8"><a href="https://www.360.bg/info/category/apartament/" title="Всички публикации в Апартаменти">Апартаменти</a> (1)
+</li>
+	<li class="cat-item cat-item-13"><a href="https://www.360.bg/info/category/egipet/" title="Всички публикации в Египет">Египет</a> (2)
+</li>
+	<li class="cat-item cat-item-5"><a href="https://www.360.bg/info/category/zabelezhitelnosti/" title="Всички публикации в Забележителности">Забележителности</a> (3)
+</li>
+	<li class="cat-item cat-item-23"><a href="https://www.360.bg/info/category/ilyuzii/" title="Всички публикации в Илюзии">Илюзии</a> (1)
+</li>
+	<li class="cat-item cat-item-15"><a href="https://www.360.bg/info/category/kartichki/" title="Всички публикации в Картички">Картички</a> (9)
+</li>
+	<li class="cat-item cat-item-7"><a href="https://www.360.bg/info/category/kreposti/" title="Всички публикации в Крепости">Крепости</a> (2)
+</li>
+	<li class="cat-item cat-item-1"><a href="https://www.360.bg/info/category/obshti/" title="Всички публикации в Общи">Общи</a> (21)
+</li>
+	<li class="cat-item cat-item-4"><a href="https://www.360.bg/info/category/priroda/" title="Всички публикации в Природа">Природа</a> (5)
+</li>
+	<li class="cat-item cat-item-10"><a href="https://www.360.bg/info/category/sybitiya/" title="Всички публикации в Събития">Събития</a> (2)
+</li>
+	<li class="cat-item cat-item-9"><a href="https://www.360.bg/info/category/hotel/" title="Всички публикации в Хотели">Хотели</a> (1)
+</li>
+		</ul>
+</div></div>		<div id="recent-posts-3" class="widget widget_recent_entries">		<div class="widget-title"><h3>Скорошни публикации</h3></div><div class="widget-content">		<ul>
+				<li><a href="https://www.360.bg/info/2013/06/16/protest-sreshhu-delyan-peevski-pred-ministerski-svet/" title="Протест срещу Делян Пеевски пред Министерски съвет">Протест срещу Делян Пеевски пред Министерски съвет</a></li>
+				<li><a href="https://www.360.bg/info/2011/10/07/screensaver-s-iaponski-vishn/" title="Скрийнсейвър с цъфнали японски вишни">Скрийнсейвър с цъфнали японски вишни</a></li>
+				<li><a href="https://www.360.bg/info/2011/07/11/sofia-ot-helikopter/" title="София от хеликоптер &#8211; Виртуална разходка">София от хеликоптер &#8211; Виртуална разходка</a></li>
+				<li><a href="https://www.360.bg/info/2011/03/21/kartichka-za-purva-prolet-virtualna-razhodka/" title="Картичка за Първа пролет :: Виртуална разходка">Картичка за Първа пролет :: Виртуална разходка</a></li>
+				<li><a href="https://www.360.bg/info/2011/01/01/podvodnica/" title="Подводница &#8211; Виртуална разходка">Подводница &#8211; Виртуална разходка</a></li>
+				</ul>
+		</div></div><div id="archives-3" class="widget widget_archive"><div class="widget-title"><h3>Архив по месеци</h3></div><div class="widget-content">		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">- Избор на месец -</option> 	<option value='https://www.360.bg/info/2013/06/'> юни 2013 &nbsp;(1)</option>
+	<option value='https://www.360.bg/info/2011/10/'> октомври 2011 &nbsp;(1)</option>
+	<option value='https://www.360.bg/info/2011/07/'> юли 2011 &nbsp;(1)</option>
+	<option value='https://www.360.bg/info/2011/03/'> март 2011 &nbsp;(1)</option>
+	<option value='https://www.360.bg/info/2011/01/'> януари 2011 &nbsp;(1)</option>
+	<option value='https://www.360.bg/info/2010/12/'> декември 2010 &nbsp;(2)</option>
+	<option value='https://www.360.bg/info/2010/05/'> май 2010 &nbsp;(1)</option>
+	<option value='https://www.360.bg/info/2010/04/'> април 2010 &nbsp;(2)</option>
+	<option value='https://www.360.bg/info/2010/03/'> март 2010 &nbsp;(3)</option>
+	<option value='https://www.360.bg/info/2010/02/'> февруари 2010 &nbsp;(2)</option>
+	<option value='https://www.360.bg/info/2010/01/'> януари 2010 &nbsp;(1)</option>
+	<option value='https://www.360.bg/info/2009/12/'> декември 2009 &nbsp;(3)</option>
+	<option value='https://www.360.bg/info/2009/11/'> ноември 2009 &nbsp;(1)</option>
+	<option value='https://www.360.bg/info/2009/09/'> септември 2009 &nbsp;(1)</option>
+	<option value='https://www.360.bg/info/2009/07/'> юли 2009 &nbsp;(4)</option>
+ </select>
+</div></div>		<div id="text-2" class="widget widget_text">			<div class="widget-title"><h3>Свържи се с нас</h3></div><div class="widget-content">			<div class="textwidget"><div class="widget-content"><ul><li><a href="http://www.360.bg/frontp_contacts_bg.php"> Информация за Контакти</a></li></ul> <br /><br />
+<ul><li><script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+<a href="skype:www.360.bg?add"><img src="http://mystatus.skype.com/bigclassic/www%2E360.bg" style="border: none;" width="182" height="44" alt="My status" /></a> <br />
+</li></ul>
+</div>
+<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/bg_BG"></script><script type="text/javascript">FB.init("e4e04eb9b1881e2446dde402cdf58453");</script><fb:fan profile_id="28530853222" stream="" connections="" width="300"></fb:fan><div style="font-size:8px; padding-left:10px"><a href="http://www.facebook.com/pages/Bulgarian-panoramas/28530853222">Bulgarian panoramas on Facebook</a> </div> </div>
+<br /><br />
+<a href="http://feeds.feedburner.com/360bg"><img src="http://feeds.feedburner.com/~fc/360bg?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>
+<a href="http://topbloglog.com/"><img src="http://topbloglog.com/i/mg/gray/3641.png" width="80" height="15" border="0" alt="Блог класация" /></a>
+<div>
+<a href="http://www.360.bg/" title="360.bg"><img src="/images/360logosph.jpg" alt="360.бг" title="360.бг" /> </a>
+</div>
+  <div>
+<a href="http://www.denta-plus.net/" target="_blank" title="зъболекарски услуги"><img src="/baner-dentaplus.jpg" alt="зъболекарски услуги" title="зъболекарски услуги" /> </a>
+</div>    
+</div>
+		</div></div>
+		</td>
+		<!-- / Right Sidebar -->
+		
+	</tr>
+	<!-- / Main Body -->
+
+	<tr>
+
+		<!-- Footer -->
+		<td id="footer" colspan="2">	
+
+		<p>
+		Страници: <a href="http://www.360.bg/info"/>(1)</a> <a href="http://www.360.bg/info/page/2/"/>(2)</a> <a href="http://www.360.bg/info/page/3/"/>(3)</a>
+<br />
+Copyright &copy; 2025 <a href="http://www.360.bg/info/">360.bg Инфо</a> - All Rights Reserved 
+   <font size="1"> 
+      <script type="text/javascript" language="javascript"><!--
+_d=document; _n=navigator; _t=new Date(); function t() { _d.write(
+"<img src=\"http://counter.search.bg/cgi-bin/c?_id=360bg&_z=0&_r="+
+_r+"&_c="+_c+"&_j="+_j+"&_t="+(_t.getTimezoneOffset())+"&_k="+_k+
+"&_l="+escape(parent.document.referrer)+"\" width=70 height=15 "+
+"border=0>");} _c="0"; _r="0"; _j="U"; _k="U"; _d.cookie="_c=y";
+_d.cookie.length>0?_k="Y":_k="N";//--></script> 
+      <script type="text/javascript" language="javascript1.2"><!--
+_b=screen; _r=_b.width; _n.appName!="Netscape"?_c=_b.colorDepth : _c=_b.pixelDepth;
+_n.javaEnabled()?_j="Y":_j="N";//--></script> 
+      <a href="http://counter.search.bg/cgi-bin/s?_id=360bg"
+target="_top"> 
+      <script type="text/javascript" language="javascript"><!--
+t(); //--></script> 
+      </a></font> 
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-119224-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<br />Powered by <a href="http://www.wordpress.org/">WordPress</a> &middot; <a href="http://wordpress.bytesforall.com/" title="WP Themes">Atahualpa Theme</a> by <a href="http://www.bytesforall.com/" title="Custom WordPress Themes &amp; Web Design">BytesForAll</a>		</p>
+				
+				
+	
+			</td>
+		<!-- / Footer -->
+		
+	</tr>
+</table><!-- / layout -->
+</div><!-- / container -->
+</div><!-- / wrapper -->
+</body>
+</html>
